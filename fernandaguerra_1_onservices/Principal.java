@@ -7,8 +7,8 @@ public class Principal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Comprobar");
-        System.out.println("Inserta una palabra para ver si es palíndromo");
+        System.out.println("Inserta una palabra en la siguiente línea para ver " +
+                "si es palíndromo y haz clic en el botón Enter");
 
         String palabra = scanner.nextLine();
     }
