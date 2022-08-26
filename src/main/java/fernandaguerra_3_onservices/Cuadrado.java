@@ -1,6 +1,6 @@
 package fernandaguerra_3_onservices;
 
-class Cuadrado extends FiguraGeometrica {
+class Cuadrado extends Figura {
     Double lado;
 
     public Cuadrado(Double l){

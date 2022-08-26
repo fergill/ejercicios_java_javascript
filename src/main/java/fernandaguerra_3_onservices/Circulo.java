@@ -1,6 +1,6 @@
 package fernandaguerra_3_onservices;
 
-class Circulo extends FiguraGeometrica {
+class Circulo extends Figura {
     Double radio;
 
     public Circulo(Double r){

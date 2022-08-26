@@ -1,6 +1,6 @@
 package fernandaguerra_3_onservices;
 
-class Rectangulo extends FiguraGeometrica {
+class Rectangulo extends Figura {
     Double base;
     Double altura;
 
