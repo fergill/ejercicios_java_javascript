@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92cecb1d-71ad-4f74-b086-be61f93375d3" name="Changes" comment="added extra files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fernandaguerra_2_onservices/Armstrong.java" afterDir="false" />
+    <list default="true" id="92cecb1d-71ad-4f74-b086-be61f93375d3" name="Changes" comment="Refactored Figura class name">
+      <change afterPath="$PROJECT_DIR$/mssql-jdbc-11.2.0.jre8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fernandaguerra_5_onservices/query" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fernandaguerra_2_onservices/Armstrong.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fernandaguerra_2_onservices/Armstrong.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +50,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -55,17 +60,23 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fernandaguerra_4_onservices" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/.idea/libraries" />
-      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/main/javascript/fernandaguerra_4_onservices" />
+      <recent name="$PROJECT_DIR$/src/main/javascript" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Armstrong">
+  <component name="RunManager" selected="Application.JdbcSQLServerConnection">
     <configuration name="Armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fernandaguerra_2_onservices.Armstrong" />
       <module name="onservices" />
@@ -92,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Charsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fernandaguerra_1_onservices.Charsets" />
+    <configuration name="JdbcSQLServerConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fernandaguerra_5_onservices.JdbcSQLServerConnection" />
       <module name="onservices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fernandaguerra_1_onservices.*" />
+          <option name="PATTERN" value="fernandaguerra_5_onservices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindromo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fernandaguerra_1_onservices.Palindromo" />
+    <configuration name="cumplenCondicion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fernandaguerra_4_onservices.cumplenCondicion" />
       <module name="onservices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fernandaguerra_1_onservices.*" />
+          <option name="PATTERN" value="fernandaguerra_4_onservices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,15 +129,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fernandaguerra_1_onservices in onservices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="fernandaguerra_4_onservices in onservices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="onservices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fernandaguerra_1_onservices.*" />
+          <option name="PATTERN" value="fernandaguerra_4_onservices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fernandaguerra_1_onservices" />
+      <option name="PACKAGE_NAME" value="fernandaguerra_4_onservices" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JdbcSQLServerConnection" />
+        <item itemvalue="JUnit.fernandaguerra_4_onservices in onservices" />
+        <item itemvalue="Application.cumplenCondicion" />
         <item itemvalue="Application.Armstrong" />
         <item itemvalue="Application.Armstsrong" />
-        <item itemvalue="Application.Palindromo" />
-        <item itemvalue="Application.Charsets" />
-        <item itemvalue="JUnit.fernandaguerra_1_onservices in onservices" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +190,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661005830015</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added class Armstrong">
+      <created>1661384620932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661384620932</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added geographic figure classes / program">
+      <created>1661553979627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661553979629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactored Figura class name">
+      <created>1661554816280</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661554816280</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +235,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Completed esPalindromo method and added extra files" />
     <MESSAGE value="added extra files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added extra files" />
+    <MESSAGE value="Added class Armstrong" />
+    <MESSAGE value="Added geographic figure classes / program" />
+    <MESSAGE value="Refactored Figura class name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored Figura class name" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
